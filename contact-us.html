@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - CMR Surgical</title>
+    <meta name="description" content="Get in touch with CMR Surgical for inquiries about the Versius Surgical System, partnerships, or general information.">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Skip to content link for accessibility -->
+    <a href="#content" class="skip-link">Skip to content</a>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="index.html">CMR Surgical</a>
+                </div>
+                <nav class="nav">
+                    <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                        <span class="hamburger"></span>
+                    </button>
+                    <ul class="nav-menu" id="nav-menu">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="safety-information.html">Safety Information</a></li>
+                        <li><a href="management-team.html">Management Team</a></li>
+                        <li><a href="news.html">News</a></li>
+                        <li><a href="press-kit.html">Press Kit</a></li>
+                        <li><a href="contact-us.html" class="active">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="content">
+        <!-- Page Header -->
+        <section class="page-header">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <p class="page-subtitle">Get in touch with our team to learn more about the Versius Surgical System</p>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-form-section">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h2>How can we help you?</h2>
+                        <p>Whether you're interested in learning more about the Versius Surgical System, exploring partnership opportunities, or have general inquiries, we're here to help.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <h3>General Inquiries</h3>
+                                <p>For general questions about CMR Surgical and our technology</p>
+                                <p><strong>Response time:</strong> Within 24 hours</p>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <h3>Clinical Support</h3>
+                                <p>For healthcare professionals seeking clinical information</p>
+                                <p><strong>Response time:</strong> Within 4 hours</p>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <h3>Technical Support</h3>
+                                <p>24/7 support for Versius system users</p>
+                                <p><strong>Availability:</strong> Round-the-clock</p>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <h3>Media & Press</h3>
+                                <p>For media inquiries and press-related questions</p>
+                                <p><strong>Response time:</strong> Within 2 hours</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form class="inquiry-form" id="contact-form">
+                            <h3>Send us a message</h3>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="firstName">First Name *</label>
+                                    <input type="text" id="firstName" name="firstName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="lastName">Last Name *</label>
+                                    <input type="text" id="lastName" name="lastName" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="organization">Organization/Hospital</label>
+                                <input type="text" id="organization" name="organization">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="role">Your Role</label>
+                                <select id="role" name="role">
+                                    <option value="">Select your role</option>
+                                    <option value="surgeon">Surgeon</option>
+                                    <option value="administrator">Hospital Administrator</option>
+                                    <option value="procurement">Procurement Specialist</option>
+                                    <option value="researcher">Researcher</option>
+                                    <option value="media">Media/Press</option>
+                                    <option value="investor">Investor</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="inquiryType">Type of Inquiry *</label>
+                                <select id="inquiryType" name="inquiryType" required>
+                                    <option value="">Select inquiry type</option>
+                                    <option value="product-info">Product Information</option>
+                                    <option value="clinical-support">Clinical Support</option>
+                                    <option value="technical-support">Technical Support</option>
+                                    <option value="partnership">Partnership Opportunities</option>
+                                    <option value="media">Media Inquiry</option>
+                                    <option value="training">Training Programs</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="country">Country</label>
+                                <input type="text" id="country" name="country">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Please provide details about your inquiry..."></textarea>
+                            </div>
+                            
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="newsletter" name="newsletter">
+                                    <span class="checkmark"></span>
+                                    I would like to receive updates about CMR Surgical and the Versius system
+                                </label>
+                            </div>
+                            
+                            <div class="form-group checkbox-group">
+                                <label class="checkbox-label">
+                                    <input type="checkbox" id="privacy" name="privacy" required>
+                                    <span class="checkmark"></span>
+                                    I agree to the <a href="#privacy-policy" target="_blank">Privacy Policy</a> and consent to my data being processed *
+                                </label>
+                            </div>
+                            
+                            <button type="submit" class="btn-primary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Office Locations -->
+        <section class="office-locations">
+            <div class="container">
+                <h2>Our Locations</h2>
+                <div class="locations-grid">
+                    <div class="location-card">
+                        <h3>Global Headquarters</h3>
+                        <div class="location-info">
+                            <p><strong>Cambridge, United Kingdom</strong></p>
+                            <p>Innovation and development center</p>
+                            <p>Home to our R&D and clinical teams</p>
+                        </div>
+                    </div>
+                    
+                    <div class="location-card">
+                        <h3>United States Office</h3>
+                        <div class="location-info">
+                            <p><strong>United States</strong></p>
+                            <p>Commercial operations and support</p>
+                            <p>Clinical training and customer service</p>
+                        </div>
+                    </div>
+                    
+                    <div class="location-card">
+                        <h3>European Operations</h3>
+                        <div class="location-info">
+                            <p><strong>Multiple European Locations</strong></p>
+                            <p>Regional support and training centers</p>
+                            <p>Local customer service teams</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq-section">
+            <div class="container">
+                <h2>Frequently Asked Questions</h2>
+                <div class="faq-grid">
+                    <div class="faq-item">
+                        <h3>How can I learn more about the Versius system?</h3>
+                        <p>You can explore our website, request a demonstration, or contact our clinical team for detailed information about the Versius Surgical System's capabilities and benefits.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>What training is required to use Versius?</h3>
+                        <p>All surgeons must complete our comprehensive training program, which includes didactic learning, simulation training, and proctored clinical cases. Our training team provides ongoing support throughout the certification process.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>Is technical support available 24/7?</h3>
+                        <p>Yes, we provide round-the-clock technical support for all Versius system users. Our expert technical team is available to assist with any system-related questions or issues.</p>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <h3>How do I request a product demonstration?</h3>
+                        <p>Contact us through this form or reach out to your regional representative to schedule a demonstration of the Versius Surgical System at your facility or at one of our training centers.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emergency Contact -->
+        <section class="emergency-contact">
+            <div class="container">
+                <div class="emergency-info">
+                    <h2>Emergency Technical Support</h2>
+                    <p>For urgent technical issues during surgical procedures, immediate support is available 24/7.</p>
+                    <div class="emergency-details">
+                        <p><strong>Emergency Hotline:</strong> Available for system users</p>
+                        <p><strong>Response Time:</strong> Immediate</p>
+                        <p><strong>Coverage:</strong> Global support network</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>Transforming surgery. For good.</h3>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="safety-information.html">Safety Information</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <ul>
+                            <li><a href="management-team.html">Management Team</a></li>
+                            <li><a href="news.html">News</a></li>
+                            <li><a href="press-kit.html">Press Kit</a></li>
+                            <li><a href="contact-us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <span>Go up</span>
+    </button>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
